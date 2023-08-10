@@ -7,7 +7,7 @@
 }
 
 .main-heading:hover {
-    color: blue;
+    color: #2a9d8f;
 
 }
 
@@ -43,5 +43,5 @@
 
 .sub-heading:hover {
     text-decoration: underline;
-    color: blue;
+    color: #2a9d8f;
 }
