@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Videos from './components/financial-content/videos';
 import Content from './components/financial-content/content';
+import Womenschemes from './components/schemes/schemes';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
                 <Route path="/" element={<MainHomepage />} />
                 <Route path="/videos" element={<Videos />} />
                 <Route path="/content" element={<Content />} />
+                <Route path="/schemes" element={<Womenschemes />} />
               </Routes>
             </main>
       </BrowserRouter>
