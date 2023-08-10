@@ -4,6 +4,7 @@ import './App.css';
 import Videos from './components/financial-content/videos';
 import Content from './components/financial-content/content';
 import Womenschemes from './components/schemes/schemes';
+import Tools from './components/tools/tools';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/videos" element={<Videos />} />
                 <Route path="/content" element={<Content />} />
                 <Route path="/schemes" element={<Womenschemes />} />
+                <Route path="/tools" element={<Tools />} />
               </Routes>
             </main>
       </BrowserRouter>

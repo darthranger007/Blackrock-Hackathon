@@ -83,7 +83,7 @@ function DrawerAppBar(props) {
               <Link to="/videos">Financial Education Videos</Link>
             </Button>
             <Button className='nav-btns'>
-              Tools
+              <Link to="/tools">Tools</Link>
             </Button>
             <Button className='nav-btns'>
               <Link to="/schemes">Schemes for Women</Link>
