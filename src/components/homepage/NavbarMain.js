@@ -11,8 +11,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import logoBanner from '../../assets/logos/newlogo.png';
-import {Link} from 'react-router-dom'
+import logoBanner from '../../assets/logos/finalogo.png';
+import { Link } from 'react-router-dom'
 
 const drawerWidth = 240;
 const navItems = ['Home', 'Financial Education Videos', 'Tools', 'Schemes for Women'];
@@ -32,21 +32,21 @@ function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-      <Button className='nav-btns'>
-              Home
-              </Button>
-              <Button className='nav-btns'>
-              Videos
-              </Button>
-              <Button className='nav-btns'>
-              Tools
-              </Button>
-              <Button className='nav-btns'>
-              Schemes for Women
-              </Button>
-              <Button className='nav-btns'>
-              Financial Education Content
-              </Button>
+        <Button className='nav-btns'>
+          Home
+        </Button>
+        <Button className='nav-btns'>
+          Videos
+        </Button>
+        <Button className='nav-btns'>
+          Tools
+        </Button>
+        <Button className='nav-btns'>
+          Schemes for Women
+        </Button>
+        <Button className='nav-btns'>
+          Financial Education Content
+        </Button>
       </List>
     </Box>
   );
@@ -76,21 +76,21 @@ function DrawerAppBar(props) {
             <img className='img-navbar' src={logoBanner} /> FinEdify
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-              <Button className='nav-btns' style={{color:'#242333'}}>
+            <Button className='nav-btns' style={{ color: '#242333' }}>
               Home
-              </Button>
-              <Button className='nav-btns'>
+            </Button>
+            <Button className='nav-btns'>
               <Link to="/videos">Financial Education Videos</Link>
-              </Button>
-              <Button className='nav-btns'>
+            </Button>
+            <Button className='nav-btns'>
               Tools
-              </Button>
-              <Button className='nav-btns'>
+            </Button>
+            <Button className='nav-btns'>
               Schemes for Women
-              </Button>
-              <Button className='nav-btns'>
+            </Button>
+            <Button className='nav-btns'>
               <Link to="/content">Financial Education Content</Link>
-              </Button>
+            </Button>
           </Box>
         </Toolbar>
       </AppBar>
