@@ -1,20 +1,32 @@
-.video-elements{
-margin: 20px 0;
+.video-elements {
+    margin: 20px 0;
 
 }
 
-.video-elements p{
-width: 50%;
-margin-top: 20px;
-transition: all 0.2s ease-in !important;
-border: none;
+.video-elements p {
+    width: 50%;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.2s ease-in !important;
+    border: none;
 }
 
-.video-elements p:hover{
-background-color: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-transform: scale(1.1) !important;
+.video-elements p:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    transform: scale(1.1) !important;
+}
+
+.hr-line {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vid-title {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
 }
