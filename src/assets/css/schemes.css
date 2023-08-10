@@ -1,0 +1,47 @@
+.main-heading {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-heading:hover {
+    color: blue;
+
+}
+
+
+.scheme {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.scheme:hover {
+    color: #264653;
+
+}
+
+.headings {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.description:hover {
+    color: #2a9d8f;
+}
+
+.sub-heading {
+    font-size: 40px;
+    text-align: left;
+}
+
+.sub-heading:hover {
+    text-decoration: underline;
+    color: blue;
+}
