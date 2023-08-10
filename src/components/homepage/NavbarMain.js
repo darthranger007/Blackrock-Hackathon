@@ -77,7 +77,7 @@ function DrawerAppBar(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             <Button className='nav-btns' style={{ color: '#242333' }}>
-              Home
+              <Link to="/" >Home</Link>
             </Button>
             <Button className='nav-btns'>
               <Link to="/videos">Financial Education Videos</Link>
@@ -86,7 +86,7 @@ function DrawerAppBar(props) {
               Tools
             </Button>
             <Button className='nav-btns'>
-              Schemes for Women
+              <Link to="/schemes">Schemes for Women</Link>
             </Button>
             <Button className='nav-btns'>
               <Link to="/content">Financial Education Content</Link>
