@@ -1,15 +1,15 @@
-.content-outer{
+.content-outer {
     padding: 20px 20px;
     background-color: #f6f6f6;
 }
 
-.content-inner{
+.content-inner {
     background-color: white;
     color: black !important;
     padding: 0px 30px;
 }
 
-.content-logos{
+.content-logos {
     /* width: 100px;
     height: 100px; */
     width: 33%;
@@ -18,13 +18,14 @@
     padding: 20px;
 }
 
-.content-cards{
+.content-cards {
     margin: 10px 0;
     border-left: 10px solid #f6f6f6;
     border-right: 10px solid #f6f6f6;
     transition: all 0.2s ease-in-out;
 }
-.content-cards:first-child{
+
+.content-cards:first-child {
     border-left: none !important;
 }
 
@@ -32,7 +33,7 @@
     border-right: none;
 }
 
-.content-cards:hover{
+.content-cards:hover {
     background-color: #f6f6f6;
     transform: scale(1.2);
 }
