@@ -37,3 +37,7 @@
     background-color: #f6f6f6;
     transform: scale(1.2);
 }
+
+.main-heading {
+    vertical-align: middle;
+}
