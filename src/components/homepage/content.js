@@ -5,7 +5,7 @@ const Content = () => {
         <>
         <>
         <div className='fincon' > Financial education is crucial for individuals, families, and societies as a whole. It empowers people with the knowledge, skills, and understanding they need to make informed and responsible financial decisions. Here are some key reasons why financial education is important: </div>
-<div className='fincon'>
+<div className='fincon-int'>
     <ul>
         <li>
 Sound Financial Decision-Making:
