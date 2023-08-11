@@ -1,12 +1,20 @@
 
 import '../../assets/css/contact.css';
 import digitalIndialogo from '../../assets/logos/Digital_India_logo.png'
-
+import logo from '../../assets/logos/finalogo.png'
 const ContactUs = () => {
     return ( 
         <>
         <>
-        
+        <div className='fincc'> 
+       Finance simplified,<br>
+       </br>
+in your language.
+        </div>
+         <span  style={{align: "center", width:"10%"}}> 
+        <img className='footimg' src={logo} ></img>
+       </span>
+      
         </>
         <div className="hello-cons" id="contact"></div>
         <div className="contact">
@@ -14,11 +22,13 @@ const ContactUs = () => {
                 <div className="contact-left col-sm-4">
 
                     <div className='logotext'>FinEdify</div>
-
+       {/* <span  style={{align: "center", width:"10%"}}> 
+        <img src={logo} ></img>
+       </span> */}
                     <div className='contact-left-text contact-right-links'>
                         <button className='contact-btns contact-btns1'>Know more!</button> &nbsp; <button className='contact-btns'>Get Updates!</button>
                     </div>
-
+                    
                     
                 </div>
                 <div className='col-sm-2'></div>

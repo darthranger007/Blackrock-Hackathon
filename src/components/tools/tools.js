@@ -16,6 +16,8 @@ const Tools = () => {
       <br />
       <a id='link' href="https://www.mutualfundssahihai.com/en/calculators" target='_blank'>Mutual Fund Calculator</a>
       <br />
+      <br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       <ContactUs />
     </div>
   )

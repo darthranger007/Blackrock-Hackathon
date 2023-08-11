@@ -1,10 +1,10 @@
-import BannerImg from '../../assets/images/banner-img.jpg'
+// import BannerImg from '../../assets/images/banner-img.jpg'
 import HoverCarousel from "hover-carousel";
 import * as React from 'react';
 import img1 from '../../assets/images/1.jpg'
 import img2 from '../../assets/images/2.jpg'
 import img3 from '../../assets/images/3.jpg'
-import img4 from '../../assets/images/bannerimgnew.jpg'
+
 import '../../assets/css/navbar.css'
 import Ticker from './ticker';
 
