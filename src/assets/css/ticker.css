@@ -10,11 +10,23 @@
   .ticker-content {
     display: flex;
     flex-direction: column;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    text-shadow: #ccc 0px 0px 1px;
+    color: black;
+    text-align: justify;
   }
-  
+ 
   .ticker-item {
     padding: 10px;
     border-bottom: 1px solid #ccc;
+  }
+
+  .ticker-item:hover {
+    background-color: #5deb31;
+  }
+  
+  .ticker-item:hover + .ticker-item {
+    background-color: transparent;
+     /* Reset color for adjacent items */
   }
   

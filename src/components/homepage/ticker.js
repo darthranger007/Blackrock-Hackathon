@@ -4,7 +4,7 @@ import '../../assets/css/ticker.css'; // Create a CSS file for styling
 const Ticker = ({ items }) => {
   const [currentItemIndex, setCurrentItemIndex] = useState(0);
   const [scrollPosition, setScrollPosition] = useState(0);
-  const tickerSpeed = 1; // Speed of scrolling (adjust as needed)
+  const tickerSpeed = 0.5; // Speed of scrolling (adjust as needed)
 
   const scrollTicker = () => {
     setScrollPosition(scrollPosition + tickerSpeed);

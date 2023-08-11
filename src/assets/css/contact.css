@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Montserrat:ital,wght@0,100;1,200&family=Outfit&family=Smooch+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Montserrat:ital,wght@0,100;1,200;1,400&family=Outfit&family=Smooch+Sans:wght@500&display=swap');
 
 
 .contact-inner{
@@ -16,17 +16,17 @@
 }
 
 .fincon{
-    font-family: 'Outfit', sans-serif;
-    background: linear-gradient(90deg, #eaeeec 10%, #f0f3ef 90%) !important;
+    font-family: 'Hind', sans-serif;
+    /* background: linear-gradient(90deg, #ffffff 10%, #ffffff 90%) !important; */
     z-index: 1;
     color: black;
-    font-size: large;
+    font-size: 2em;
     text-align: justify;
     padding-top: 0px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 1.0px;
 }
 
 .hello-cons{
