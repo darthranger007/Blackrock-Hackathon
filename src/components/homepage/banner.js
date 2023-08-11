@@ -4,7 +4,7 @@ import * as React from 'react';
 import img1 from '../../assets/images/1.jpg'
 import img2 from '../../assets/images/2.jpg'
 import img3 from '../../assets/images/3.jpg'
-
+import img4 from '../../assets/images/bannerimgnew.jpg'
 import '../../assets/css/navbar.css'
 
 
@@ -45,7 +45,7 @@ const Banner = () => {
                 
             </div>
             <div col-sm-3 className='banner-right'>
-                <img src={BannerImg} className='banner-img' />
+            <img src={img4} className='banner-img' />
             </div>
         </div>
 
