@@ -6,8 +6,17 @@ import img2 from '../../assets/images/2.jpg'
 import img3 from '../../assets/images/3.jpg'
 import img4 from '../../assets/images/bannerimgnew.jpg'
 import '../../assets/css/navbar.css'
+import Ticker from './ticker';
 
-
+const tickerItems  = [
+    '1. Share Market LIVE: Nifty falls below 19500, Sensex tanks 240 pts; Bank Nifty below 44350, HCL Tech, Titan gain',
+    '2. Bajaj Electricals Q1 profit drops 9.9% at Rs 37.13 crore on unseasonal rains, muted demand',
+    '3. Biocon Q1 profit drops 29.8% to Rs 101.40 crore, revenue up 60% on jump in Biosimilars revenue.',
+    '4. LIC Q1 profit surges 14x to Rs 9634.98 crore on higher income on investments',
+    '5. Amcor announces acquisition of Phoenix Flexibles to increase production capacity',
+    '6. Kirloskar family feud intensifies as Kirloskar Oil Engines seeks shareholder nod for pumps business expansion',
+    '7. Performance gets 50% weightage: Hikes at startups in FY23 just enough to cover inflation'
+  ];
 
 
 const Banner = () => {
@@ -45,7 +54,8 @@ const Banner = () => {
                 
             </div>
             <div col-sm-3 className='banner-right'>
-            <img src={img4} className='banner-img' />
+            {/* <img src={img4} className='banner-img' /> */}
+            <Ticker items={tickerItems}  />
             </div>
         </div>
 
