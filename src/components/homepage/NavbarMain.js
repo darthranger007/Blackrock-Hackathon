@@ -47,6 +47,9 @@ function DrawerAppBar(props) {
         <Button className='nav-btns'>
           Financial Education Content
         </Button>
+        <Button className='nav-btns'>
+          Quiz
+        </Button>
       </List>
     </Box>
   );
@@ -90,6 +93,9 @@ function DrawerAppBar(props) {
             </Button>
             <Button className='nav-btns'>
               <Link to="/content">Financial Education Content</Link>
+            </Button>
+            <Button className='nav-btns'>
+              <Link to="/quiz">Quiz</Link>
             </Button>
           </Box>
         </Toolbar>

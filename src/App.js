@@ -5,6 +5,7 @@ import Videos from './components/financial-content/videos';
 import Content from './components/financial-content/content';
 import Womenschemes from './components/schemes/schemes';
 import Tools from './components/tools/tools';
+import Quiz from './components/quiz/quiz';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/content" element={<Content />} />
                 <Route path="/schemes" element={<Womenschemes />} />
                 <Route path="/tools" element={<Tools />} />
+                <Route path="/quiz" element={<Quiz />} />
               </Routes>
             </main>
       </BrowserRouter>
