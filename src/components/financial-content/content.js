@@ -19,7 +19,7 @@ const Content = () => {
                 <div className="row content-inner">
                     <div className="col-sm-4 content-cards">
                         <a href="https://www.amfiindia.com/investor-corner/knowledge-center/what-are-mutual-funds-new.html" target="_blank">
-                            <img src={Content1IMG} alt="" className="content-logos" />
+                            <img src={Content1IMG}  alt="" className="content-logos" />
                             <p className="content-tile">Mutual Fund</p>
                         </a>
                     </div>

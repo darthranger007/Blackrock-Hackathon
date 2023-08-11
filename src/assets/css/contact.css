@@ -20,7 +20,7 @@
     /* background: linear-gradient(90deg, #ffffff 10%, #ffffff 90%) !important; */
     z-index: 1;
     color: black;
-    font-size: 2em;
+    font-size: 1em;
     text-align: justify;
     padding-top: 0px;
     padding-left: 50px;
@@ -29,14 +29,22 @@
     letter-spacing: 1.0px;
 }
 
-/* .fincon-int {
-    background: rgba(255, 255, 255, 0.13);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-} */
+li {
+    /* border: 1px solid #ccc; Add a border around each list item */
+    padding: 10px;
+    margin: 5px 0;
+    background: transparent;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12px );
+-webkit-backdrop-filter: blur( 12px );
+border-radius: 10px;
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+  }
+  li:hover {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    ;
+  }
 
 .hello-cons{
     position: relative;
